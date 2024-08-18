@@ -1,0 +1,30 @@
+adding own color 
+text-[#0000] 
+when we add colors to theme then only they can be used or text-[] if we put in extend then we can use both
+
+to use container class 
+first you need to add screen sm xs to the element 
+
+gap only works with grid
+in parent the grid should be given to use md:grid-cols-2
+
+color
+bg-midnight
+text-tahiti
+bg-[#code]
+
+spacing
+p-4 -> 1rem p-1 -> 4px // padding
+m-4 -> 1rem m-1 -> 4px // margin 
+w-4 -> 1rem w-1 -> 4px // weight
+h-4 -> 1rem h-1 -> 4px // height
+
+
+
+text
+
+
+
+grid
+
+grid grid-cols-3

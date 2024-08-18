@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          screens: {
+            sm: "640px",
+            // => @media (min-width: 640px) { ... }
+
+            md: "768px",
+            // => @media (min-width: 768px) { ... }
+
+            lg: "1024px",
+            // => @media (min-width: 1024px) { ... }
+
+            xl: "1280px",
+            // => @media (min-width: 1280px) { ... }
+
+            "2xl": "1536px",
+            // => @media (min-width: 1536px) { ... }
+          },
+          extend: {},
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <div
+      class="max-w-[1400px] py-4 mx-auto grid grid-rows-5 grid-flow-col gap-4"
+    >
+      <div class="bg-[green] py-5 text-center">tank</div>
+      <div class="bg-[green] py-5 text-center">1</div>
+      <div class="bg-[green] row-span-3 py-5 text-center">2</div>
+      <div class="bg-[green] py-5 text-center">3</div>
+      <div class="bg-[green] py-5 text-center">4</div>
+      <div class="bg-[green] py-5 text-center">5</div>
+      <div class="bg-[green] py-5 text-center">6</div>
+      <div class="bg-[green] py-5 text-center">7</div>
+      <div class="bg-[green] py-5 text-center row-span-5">8</div>
+    </div>
+  </body>
+</html>
